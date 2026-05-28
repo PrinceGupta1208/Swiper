@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 139, 139, 0.459);
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  color: white;
+}
+
+.swiper {
+  top: calc(50% / 3);
+  width: 50%;
+  height: 50%;
+  border-radius: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  /* display: block; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next {
+  background-color: rgb(254, 253, 253);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.swiper-button-prev {
+  background-color: rgb(254, 253, 253);
+  padding: 10px;
+  border-radius: 50px;
+}
